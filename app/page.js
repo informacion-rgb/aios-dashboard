@@ -1,7 +1,7 @@
 
 import { getServerSession } from "next-auth"
 import { redirect } from "next/navigation"
-import { authOptions } from "@/lib/auth"
+import { authOptions } from "../lib/auth";
 
 async function getApiStatus() {
   try {
